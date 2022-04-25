@@ -1,11 +1,11 @@
 #! /usr/bin/bash
 
-#   I installed xclip to copy commands and it worked 
-# when I run each command manually from terminal. But when I tried
-# to make bash program it couldn't paste the copied output to the file. 
 
 touch $(date '+%Y-%Y-%m-%d_%H-%M-%S.txt')
 history 20 | xclip -i
 
 xclip -o > $(date '+%Y-%Y-%m-%d_%H-%M-%S.txt')
 
+#When I specified the folder name in script my bash program 
+#worked but in above case it didn't work because time
+#and date not exact so it couldn't found file to paste
