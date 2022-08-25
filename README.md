@@ -1,7 +1,4 @@
-# Hi there !
-I am Sanjarbek Saidaxmatov 20 y.o CS student at INHA University in Tashkent.
-
-Here I share my Backend projects and stuff related to Backend  development.
+Backend projects and stuff related to Backend  development.
 <br/>
 
 ### *Contact Info:*
